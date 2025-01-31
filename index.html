@@ -1,11 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/82072ffe9a.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                primary: '#179800'
+              }
+            }
+          }
+        }
+      </script>
+
+      <style>
+        .sora-font {
+            font-family: "Sora", serif;
+        }
+            
+      </style>
     
+</head>
+<body class="sora-font text-[#111111]">
+    <header>
+        <div class="navbar border border-b-primary md:border-none  max-w-[1600px] mx-auto mt-3">
+            <div class="navbar-start">
+              <a href=""><img src="images/logo-header.png" alt="" class="hidden lg:block"></a>
+              <a href=""><img src="images/logo-sm.png" alt="" class="lg:hidden"></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+    
+            <div class="navbar-end flex gap-3">
+                <button class="btn btn-square btn-ghost  lg:hidden text-primary">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        class="inline-block h-7 w-7 stroke-current">
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <i class="fa-solid fa-magnifying-glass hidden lg:block text-2xl"></i>
+                <i class="fa-solid fa-cart-shopping hidden lg:block text-2xl"></i>
+                <button class="btn btn-outline text-primary hidden lg:block text-xl py-2 px-7">Login</button>
+                <button class="btn btn-outline bg-primary text-white hidden lg:block py-2 px-7 text-xl">Register</button>
+                
+            </div>
+    
+           
+        </div>
+        
+        <!-- hero section -->
+        <div class="hero pt-8 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+            <div class="hero-content text-center flex-col"> 
+              <div class="w-3/4">
+                <h2 class="text-5xl font-semibold">Freshness <span class="text-primary">You Can <br>Count</span> On, Prices You’ll Love! </h2>
+                <p class="py-6 text-xl">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+                </p>
+              </div>
+
+              <img src="images/hero-vegetables.png" alt="" class="w-screen">
+
+            </div>
+          </div>
+    </header>
+    
+
+
+    
+
+      
 </body>
 </html>
