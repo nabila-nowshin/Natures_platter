@@ -18,7 +18,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                primary: '#179800'
+                primary: '#179800',
+                secondary:'#EFEBE3'
               }
             }
           }
@@ -87,9 +88,379 @@
             </div>
           </div>
     </header>
-    
+
+    <main>
+      <section class="services py-20 lg:py-36 max-w-[1600px] mx-4 lg:mx-auto">
+        <h2 class="text-primary font-semibold text-4xl mb-12">Services</h2>
+
+        <div class="services-cart grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
+          <div class="card bg-secondary">
+            <figure class="px-10 pt-10 ">
+              <div class="avatar p-6 bg-white rounded-full">
+                <img src="images/service.png" />
+              </div>
+            </figure>
+            <div class="card-body items-center text-center pb-11">
+              <h2 class="card-title font-semibold text-2xl mb-3">24/7 Services </h2>
+              <p class="font-light text-xl opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+          </div>
+          <div class="card bg-secondary">
+            <figure class="px-10 pt-10 ">
+              <div class="avatar p-6 bg-white rounded-full">
+                <img src="images/delivery.png" />
+              </div>
+            </figure>
+            <div class="card-body items-center text-center pb-11">
+              <h2 class="card-title font-semibold text-2xl mb-3">Fast Delivery</h2>
+              <p class="font-light text-xl opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+          </div>
+          <div class="card bg-secondary">
+            <figure class="px-10 pt-10 ">
+              <div class="avatar p-6 bg-white rounded-full">
+                <img src="images/healthy.png" />
+              </div>
+            </figure>
+            <div class="card-body items-center text-center pb-11">
+              <h2 class="card-title font-semibold text-2xl mb-3">Healthy Product</h2>
+              <p class="font-light text-xl opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular-product py-20 lg:py-36 bg-secondary">
+        <div class="popular-product-content  max-w-[1600px] mx-4 lg:mx-auto">
+          <h2 class="text-primary font-semibold text-4xl mb-12">Popular Products</h2>
 
 
+          <div class="popular-product-grid grid lg:grid-cols-[1fr_2fr] gap-6">
+            <div class="card bg-gradient-to-br from-primary to-[#FFFFFF] pt-11 pb-40 ">
+              <div class="card-body">
+                <h2 class="card-title font-semibold text-2xl mb-3">30% off</h2>
+                <p class="text-xl ">Discover a world of treats,toys and essentials handpicked for</p>
+                <div class="card-actions">
+                  <button class="btn  bg-white text-black py-2 px-7 text-xl">Buy Now</button>
+                </div>
+                <img src="images/vegetable-offer.png" alt="" class="absolute right-5  -bottom-0  ">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6">
+              <!-- items -->
+               <!-- 1 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/onion.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Onion 1KG</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/tomato.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Tomato 500 g</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/potato.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Potato 1 Kg</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+              
+              <!-- 4 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/tomato.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Tomato 500 g</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+              
+              <!-- 5 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/onion.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Onion 1KG</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+
+             <!-- 6 -->
+             <div class="card card-side bg-base-100 items-center">
+              <figure>
+                <img
+                  src="images/tomato.png"  class="bg-secondary ml-4 p-2"/>
+              </figure>
+              <div class="card-body p-3">
+                <div class="rating rating-md flex items-center gap-3">
+                  <input
+                    type="radio"
+                    name="rating-7"
+                    class="mask mask-star-2 bg-yellow-400"
+                    checked="checked" />
+                    <p class=" text-sm lg:text-xl">4.5</p>
+                </div>
+                <h2 class="card-title font-medium text-sm lg:text-xl">Tomato 500 g</h2>
+                <p class="text-sm lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+              <!-- 7 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/onion.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Onion 1KG</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+
+              <!-- 8 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/potato.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Potato 1 Kg</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+
+              <!-- 9 -->
+              <div class="card card-side bg-base-100 items-center">
+                <figure>
+                  <img
+                    src="images/potato.png"  class="bg-secondary ml-4 p-2"/>
+                </figure>
+                <div class="card-body p-3">
+                  <div class="rating rating-md flex items-center gap-3">
+                    <input
+                      type="radio"
+                      name="rating-7"
+                      class="mask mask-star-2 bg-yellow-400"
+                      checked="checked" />
+                      <p class=" text-sm lg:text-xl">4.5</p>
+                  </div>
+                  <h2 class="card-title font-medium text-sm lg:text-xl">Potato 1 Kg</h2>
+                  <p class="text-sm lg:text-xl">$39.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          
+        </div>
+      </section>
+
+     <div class="relative">
+      <section class="arrivals pt-20 lg:pt-36 lg:pb-96 ">
+        <div class="aarival-content max-w-[1600px] mx-4 lg:mx-auto">
+          <h2 class="text-primary font-semibold text-4xl mb-12">Arrival & Offers</h2>
+
+          <div class="  grid lg:grid-cols-[1.5fr_1fr] gap-5">
+            <div class="card card-side bg-[#115414] pt-5 px-3">
+              <div class="card-body flex flex-col justify-start space-y-3 lg:space-y-8  ">
+                <div>
+                  <img src="images/dawat-logo.png" alt="" class="">
+                </div>
+              
+                <div class="card-actions">
+                  <button class="rounded-xl border-none bg-primary text-white py-3 lg:px-7 px-3 lg:text-3xl font-light">Cook Exotic Dishes</button>
+                </div>
+                <h2 class="card-title font-semibold lg:text-5xl  text-white">UP to <span class="font-bold"> 20% OFF</span></h2>
+              </div>
+  
+              <figure>
+                <img
+                  src="images/dawat-mock-up.png"/>
+              </figure>
+            </div>
+
+            <div class="card card-side bg-[#102861] pt-5 px-3">
+              <div class="card-body flex flex-col justify-start space-y-3 lg:space-y-8 ">
+                <div>
+                  <img src="images/india-gate-logo.png" alt="" class="">
+                </div>
+              
+                <div class="card-actions">
+                  <button class="rounded-xl border-none bg-[#2A4D97] text-white py-3 px-7 lg:text-3xl font-light">World’s No.1 Rice</button>
+                </div>
+                <h2 class="card-title font-semibold lg:text-5xl  text-white">UP to <span class="font-bold"> 40% OFF</span></h2>
+              </div>
+  
+              <figure>
+                <img
+                  src="images/india-gate-mock-up.png"/>
+              </figure>
+            </div>
+
+          </div>
+          
+
+        </div>
+      </section>
+      <!-- absolute left-1/2 transform -translate-x-1/2 top-1/2  -->
+      <!-- <section class="grocery-news absolute left-1/2 transform -translate-x-1/2 top-1/2 translate-y-1/2 rounded-2xl mx-4 lg:mx-auto py-10 z-10">
+        <div class="news-content max-w-[1600px] mx-4 lg:mx-auto bg-secondary rounded-2xl">
+          <div class="card card-side flex-col lg:flex-row">
+            <figure>
+              <img
+                src="images/vegetable-busket.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Get Grocery News!</h2>
+              <p>Exclusive training tips, ticks, product deals and more.</p>
+              <input type="text" placeholder="Type here" class="input input-ghost w-full max-w-xs" />
+              <div class="card-actions">
+                <button class="btn btn-primary">Watch</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  -->
+
+      <footer class="bg-primary">
+        <footer class="footer bg-primary text-base-content text-white pt-60 max-w-[1600px] mx-4 lg:mx-auto  justify-between">
+          <nav>
+            <a href=""><img src="images/logo-footer.png" alt="" ></a>
+            <p class="text-xl opacity-70 max-w-[440px]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          </nav>
+          <nav>
+            <a class="link link-hover">Product</a>
+            <a class="link link-hover">Services</a>
+            <a class="link link-hover">Contact Us</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Follow Us</h6>
+            <div class="grid grid-flow-col gap-4">
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current">
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                </svg>
+              </a>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current">
+                  <path
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                </svg>
+              </a>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current">
+                  <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </footer>
+      </footer>
+     </div>
+     
+      
+      
+    </main>
+
+   
     
 
       
